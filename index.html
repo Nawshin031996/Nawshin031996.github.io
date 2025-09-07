@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Nawshin's Homepage</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <style>
+    /* Add custom CSS for the profile picture */
+    .profile-pic {
+      position: absolute;
+      top: 20px;
+      right: 150px; /* Set the correct alignment as specified */
+      width: 150px; /* Adjust the width as needed */
+      height: 150px; /* Adjust the height as needed */
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #fff; /* Optional: Add border for better appearance */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for better appearance */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Nawshin Tabassum Tanny<span class="logo_colour"></span></a></h1>
+          <h2>Department of Computer Science, Texas State University</h2>
+        </div>
+      </div>
+      <img src="dp.jpg" alt="Profile Picture" class="profile-pic">
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="service.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+	  <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>Latest News</h3>
+      
+            <h5>8 March, 2024</h5>
+            <p>Our paper titled "A Deep Neural Network Approach with Pioneering Local Dataset to Recognize Doctor's Handwritten Prescription in Bangladesh"<br /><a href="https://ieeexplore.ieee.org/abstract/document/10499631">Read more</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Search</h3>
+            <form method="post" action="#" id="search_form">
+              <p>
+                <input class="search" type="text" name="search_field" value="Enter keywords....." />
+                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+              </p>
+            </form>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Welcome to Nawshin's Homepage</h1>
+        <p>I am a first-year Ph.D. student and Doctoral Research Assistant in the Department of Computer Science at Texas State University, San Marcos, Texas, working in the Per4ML Lab (from Fall 2025) under the guidance of Dr. Tanzima Islam (Assistant Professor, CS, TXST). I am also a former Lecturer (currently on study leave) at Ahsanullah University of Science and Technology (AUST), Dhaka, Bangladesh in the Department of CSE. I have completed B.Sc. in Computer Science and Engineering from KUET. My primary research interest lies in High Performance Computing, Artifical Intelligence, Machine Learning Applications, Natural Languape Processing and Health Informatics. But I am always open to exploring new avenues and broadening my horizons by venturing into new fields of research.</p>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="research.html">Research</a> | <a href="education.html">Education</a> | <a href="service.html">Experience</a> | <a href="contact.html">Contact</a></p>
+      <p>Copyright &copy; simplestyle_horizon | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Simple web templates by HTML5</a></p>
+    </div>
+  </div>
+</body>
+</html>
